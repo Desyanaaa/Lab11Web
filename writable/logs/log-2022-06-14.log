@@ -1,0 +1,117 @@
+CRITICAL - 2022-06-14 04:21:56 --> Invalid file: template/admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/admin_header', null, true)
+ 3 APPPATH\Views\Artikel\form_add.php(1): CodeIgniter\View\View->include('template/admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Artikel\\form_add.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('artikel/form_add', [], true)
+ 7 APPPATH\Controllers\Artikel.php(37): view('artikel/form_add', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->add()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:36:33 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\/Artikel::admin_index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/Artikel::admin_index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/artikel')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('admin/artikel')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:38:18 --> Class 'App\Controllers\PageNotFoundException' not found
+in APPPATH\Controllers\Artikel.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->view('form_add')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:38:27 --> Class 'App\Controllers\PageNotFoundException' not found
+in APPPATH\Controllers\Artikel.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->view('form_add')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:39:23 --> Class 'App\Controllers\PageNotFoundException' not found
+in APPPATH\Controllers\Artikel.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->view('form_add')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:43:08 --> Class 'App\Controllers\PageNotFoundException' not found
+in APPPATH\Controllers\Artikel.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->view('form_add')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:43:38 --> Class 'App\Controllers\PageNotFoundException' not found
+in APPPATH\Controllers\Artikel.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->view('form_add')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:44:03 --> Class 'App\Controllers\PageNotFoundException' not found
+in APPPATH\Controllers\Artikel.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->view('admin_index')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:44:11 --> Class 'App\Controllers\PageNotFoundException' not found
+in APPPATH\Controllers\Artikel.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->view('form_add')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:53:29 --> Call to a member function get404Override() on null
+in SYSTEMPATH\CodeIgniter.php on line 913.
+ 1 SYSTEMPATH\CodeIgniter.php(365): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 2 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:56:18 --> Invalid file: artikel/admin_index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/admin_index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 3 APPPATH\Controllers\Artikel.php(18): view('artikel/admin_index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->admin_index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:56:21 --> Invalid file: artikel/form_add.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/form_add.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('artikel/form_add', [], true)
+ 3 APPPATH\Controllers\Artikel.php(37): view('artikel/form_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->add()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:56:29 --> Invalid file: artikel/admin_index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/admin_index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 3 APPPATH\Controllers\Artikel.php(18): view('artikel/admin_index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->admin_index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 20:56:38 --> Invalid file: artikel/admin_index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/admin_index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 3 APPPATH\Controllers\Artikel.php(18): view('artikel/admin_index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Artikel->admin_index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
