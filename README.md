@@ -1,5 +1,6 @@
 # Lab 11 Pemrograman Web
 <img width="944" alt="Capture" src="https://user-images.githubusercontent.com/76044697/172582715-07b55e13-5c9e-410c-b323-1051deb25151.PNG">
+<hr>
 <h1>Lab 11 Pertemuan 13 </h1>
 <h2>1. Membuat halaman artikel untuk user yang terintregasi database pada file index.php</h2>
 <img width="960" alt="1" src="https://user-images.githubusercontent.com/76044697/173789575-307e6bea-9108-4d7f-8eae-e84651f179a5.PNG">
@@ -26,3 +27,13 @@
 <img width="960" alt="6" src="https://user-images.githubusercontent.com/76044697/173795644-ece9d153-128c-4135-9ec0-971bef3a7f37.PNG">
 <p>Maka datanya akan terhapus</p>
 <img width="960" alt="6 1" src="https://user-images.githubusercontent.com/76044697/173795810-fa3d0396-0f16-43fb-8807-bb70bc80a53b.PNG">
+<hr>
+<h1> Lab 11 Pertemuan 14</h1>
+<p>Buka link <a href="http://localhost:8080/index.php/admin/artikel">http://localhost:8080/index.php/user/login</a> maka akan menampilkan halaman login, karena sebelumnya belum login</p>
+<img width="960" alt="aa1" src="https://user-images.githubusercontent.com/76044697/175243427-37c30916-2e40-434d-bc04-337f4bbc5bcc.PNG">
+<p>Login dengan email dan password</p>
+<img width="402" alt="aa2" src="https://user-images.githubusercontent.com/76044697/175244052-9a00f816-72fb-4cf5-8f9e-2895a4c4edb9.PNG">
+<p>Apabila email dan password benar, maka akan masuk ke halaman admin</p>
+<img width="960" alt="aa3" src="https://user-images.githubusercontent.com/76044697/175244165-9f7467de-be19-4be7-bd50-7619d0177a5b.PNG">
+<p>Klik <b>Logout</b> untuk keluar dari halaman admin</p>
+<img width="405" alt="zz1" src="https://user-images.githubusercontent.com/76044697/175246123-ca1380ab-3246-4a00-a0bf-dc08422edaaf.PNG">
